@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bitlinks - URL Shortener
+
+Bitlinks is a URL shortening service built with **Next.js**. This project allows users to generate shortened versions of long URLs, making them easier to share and manage. The service can be used for shortening links quickly and efficiently.
+
+## Features
+
+- Shorten long URLs to compact, easy-to-share links
+- Copy shortened links with a single click
+- View analytics for your shortened links (optional feature)
+- Responsive design, optimized for mobile and desktop devices
+- Fast and efficient backend with real-time link shortening
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project locally, follow these steps:
 
+### Prerequisites
+
+Make sure you have the following installed:
+
+- **Node.js** version 14.x or later
+- **npm** or **yarn** for package management
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TheUzair/BitLinks.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd bitlinks
+   ```
+
+3. Install the dependencies:
+   Using npm:
+   ```bash
+   npm install
+   ```
+   Or using yarn:
+   ```bash
+   yarn install
+   ```
+
+### Running the Development Server
+
+To start the development server, run:
+Using npm:
 ```bash
 npm run dev
-# or
+```
+Or using yarn:
+```bash
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the app locally on `http://localhost:3000`. Open this URL in your browser to see the project in action.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Enter a long URL** in the input field on the homepage.
+2. **Click the "Shorten" button** to generate a short URL.
+3. **Copy the generated short URL** and share it wherever needed.
 
-## Learn More
+### Optional Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Link Analytics:** Track how many times your short link has been clicked (if implemented).
+- **User Accounts (Future Update):** Save your generated links and view analytics.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technology Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project uses the following technologies:
 
-## Deploy on Vercel
+- **Next.js**: React framework for production-ready applications
+- **React**: JavaScript library for building user interfaces
+- **Tailwind CSS**: Utility-first CSS framework for rapid styling
+- **Vercel**: Deployment platform (optional, if used)
+- **MongoDB**: Database for storing URLs and user data (optional)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions are welcome! If you'd like to improve this project, feel free to fork the repository and submit a pull request. Here’s how you can contribute:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add feature'`)
+5. Push to the branch (`git push origin feature-branch`)
+6. Open a pull request
+
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- **Next.js Documentation**: [Next.js Docs](https://nextjs.org/docs)
+- **React Documentation**: [React Docs](https://reactjs.org/docs)
+- **Tailwind CSS Documentation**: [Tailwind Docs](https://tailwindcss.com/docs)
+- **Vercel Platform**: [Vercel Docs](https://vercel.com/docs)
+
+## Future Features
+
+- User authentication and link management
+- Advanced analytics (geolocation, referral sources, etc.)
+- API for generating short URLs programmatically

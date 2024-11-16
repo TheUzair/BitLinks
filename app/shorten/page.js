@@ -28,23 +28,32 @@ const Shorten = () => {
 					shorturl: shortUrl,
 				}),
 			});
-
-			const result = await response.json();
-
-			if (response.ok) {
+	
+			if (!response.ok) {
+				const errorText = await response.text(); 
+				console.error("API Error:", errorText);
+				alert(errorText || "Failed to generate short URL");
+				return;
+			}
+	
+			
+			const contentType = response.headers.get("Content-Type");
+			if (contentType && contentType.includes("application/json")) {
+				const result = await response.json();
 				setGenerated(`${process.env.NEXT_PUBLIC_HOST}/${shortUrl}`);
 				setUrl("");
 				setShortUrl("");
 				alert(result.message);
 			} else {
-				console.error("API Error:", result.message);
-				alert(result.message || "Failed to generate short URL");
+				const result = await response.text();
+				alert(`Response received: ${result}`);
 			}
 		} catch (error) {
 			console.error("Network Error:", error);
 			alert("Network error. Please try again later.");
 		}
 	};
+	
 
 	return (
 		<div className="min-h-screen flex flex-col">

@@ -12,7 +12,6 @@ const Navbar = () => {
 
   return (
     <nav className="h-16 bg-purple-700 flex justify-between items-center px-6 text-white shadow-lg">
-      {/* Logo Section */}
       <div className="flex items-center gap-2">
         <Link href="/" className="flex items-center gap-2">
           <Image
@@ -28,7 +27,6 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {/* Desktop Navigation Links */}
       <ul className="hidden md:flex items-center gap-8 font-medium">
         <li>
           <Link href="/">
@@ -53,7 +51,6 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* CTA Button */}
       <div className="hidden md:flex">
         <Link href="/shorten">
           <button className="bg-purple-500 rounded-full shadow-lg px-5 py-2 text-white font-bold text-sm md:text-lg hover:bg-purple-600 transform hover:scale-105 transition">
@@ -62,7 +59,6 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {/* Mobile Menu Button */}
       <div className="md:hidden ml-auto">
         <button onClick={toggleMobileMenu} className="focus:outline-none">
           <svg
@@ -82,7 +78,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu Links */}
       {isMobileMenuOpen && (
         <ul className="absolute top-16 left-0 w-full bg-purple-700 text-white flex flex-col items-center gap-4 py-6 shadow-md md:hidden">
           <li>

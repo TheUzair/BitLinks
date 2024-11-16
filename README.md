@@ -6,7 +6,7 @@ Bitlinks is a URL shortening service built with **Next.js**. This project allows
 
 - Shorten long URLs to compact, easy-to-share links
 - Copy shortened links with a single click
-- View analytics for your shortened links (optional feature)
+- View analytics for your shortened links (upcoming)
 - Responsive design, optimized for mobile and desktop devices
 - Fast and efficient backend with real-time link shortening
 
@@ -67,10 +67,10 @@ This will start the app locally on `http://localhost:3000`. Open this URL in you
 2. **Click the "Shorten" button** to generate a short URL.
 3. **Copy the generated short URL** and share it wherever needed.
 
-### Optional Features
+###  Future Update
 
-- **Link Analytics:** Track how many times your short link has been clicked (if implemented).
-- **User Accounts (Future Update):** Save your generated links and view analytics.
+- **Link Analytics:** Track how many times your short link has been clicked.
+- **User Accounts:** Save your generated links and view analytics.
 
 ## Technology Stack
 
@@ -79,8 +79,8 @@ This project uses the following technologies:
 - **Next.js**: React framework for production-ready applications
 - **React**: JavaScript library for building user interfaces
 - **Tailwind CSS**: Utility-first CSS framework for rapid styling
-- **Vercel**: Deployment platform (optional, if used)
-- **MongoDB**: Database for storing URLs and user data (optional)
+- **Vercel**: Deployment platform
+- **MongoDB**: Database for storing URLs and user data
 
 ## Contributing
 

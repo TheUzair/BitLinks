@@ -10,6 +10,10 @@ Bitlinks is a URL shortening service built with **Next.js**. This project allows
 - Responsive design, optimized for mobile and desktop devices
 - Fast and efficient backend with real-time link shortening
 
+## Live Project
+
+Visit the live version of the project here: [Bitlinks](https://bit-links-blush.vercel.app/)
+
 ## Getting Started
 
 To get started with the project locally, follow these steps:

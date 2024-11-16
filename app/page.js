@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="p-8 bg-white">
+        <section className="p-8 bg-purple-100">
           <h2 className={`text-3xl font-bold ${poppins.className} text-center mb-6`}>
             Why Choose Our URL Shortener?
           </h2>
@@ -77,20 +77,20 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="p-8 bg-purple-50">
+        <section className="p-8 bg-purple-100">
           <h2 className={`text-3xl font-bold ${poppins.className} text-center mb-6`}>
             What Our Users Say
           </h2>
           <div className="flex flex-col md:flex-row justify-center gap-6">
-            <div className="bg-white p-4 rounded-md shadow-md text-center">
+            <div className="bg-purple-200 p-4 rounded-md shadow-md text-center">
               <p className="italic">"This URL shortener has transformed the way I share links!"</p>
               <p className="font-semibold mt-2">- Alex J.</p>
             </div>
-            <div className="bg-white p-4 rounded-md shadow-md text-center">
+            <div className="bg-purple-200 p-4 rounded-md shadow-md text-center">
               <p className="italic">"The analytics feature is a game changer for my marketing efforts."</p>
               <p className="font-semibold mt-2">- Jamie R.</p>
             </div>
-            <div className="bg-white p-4 rounded-md shadow-md text-center">
+            <div className="bg-purple-200 p-4 rounded-md shadow-md text-center">
               <p className="italic">"I love how easy it is to create custom links!"</p>
               <p className="font-semibold mt-2">- Taylor M.</p>
             </div>

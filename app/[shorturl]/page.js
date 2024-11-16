@@ -9,18 +9,10 @@ export default async function Page({ params }) {
   const urlsCollection = db.collection("url");
 
   const urlDocument = await urlsCollection.findOne({ shorturl });
+
   if (urlDocument) {
-    // Display "Redirecting you..." message briefly before redirecting
-    return (
-      <div>
-        Redirecting you...
-        {setTimeout(() => redirect(urlDocument.url), 1000)}
-      </div>
-    );
+    redirect(urlDocument.url);
   } else {
-    // Show the Next.js default 404 page if the short URL is not found
     notFound();
   }
-
-  return null;
 }

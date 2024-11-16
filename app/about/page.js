@@ -25,7 +25,7 @@ const About = () => {
             <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
             <p className="text-lg leading-relaxed">
               At BitLinks, our mission is to make your digital journey seamless.
-              Whether you're sharing content, managing campaigns, or tracking clicks,
+              "Whether you're sharing content, managing campaigns, or tracking clicks,"
               we provide the tools to simplify and enhance your online presence.
             </p>
           </section>
@@ -81,12 +81,12 @@ const About = () => {
               Join thousands of users who trust BitLinks for their link-shortening needs.
               Try it out today and experience the difference.
             </p>
-            <a
+            <Link
               href="/shorten"
               className="bg-purple-500 text-white px-6 py-3 rounded-md shadow-md hover:bg-purple-600 font-bold"
             >
               Start Now
-            </a>
+            </Link>
           </section>
         </div>
       </main>

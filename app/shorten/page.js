@@ -55,7 +55,7 @@ const Shorten = () => {
 						Generate Your Short URLs
 					</h1>
 					<p className="text-center text-purple-700 text-lg">
-						Transform your long URLs into short, memorable links in seconds. It's fast, simple, and efficient!
+						"Transform your long URLs into short, memorable links in seconds. It's fast, simple, and efficient!"
 					</p>
 					<div className="flex flex-col gap-6">
 						<input

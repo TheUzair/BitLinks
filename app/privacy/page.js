@@ -59,7 +59,7 @@ const Privacy = () => {
         <section className="text-center mt-8">
           <p className="text-lg">
             If you have any questions about this Privacy Policy, please 
-            <a href="/contact" className="text-purple-600 underline"> contact us</a>.
+            <Link href="/contact" className="text-purple-600 underline"> contact us</Link>.
           </p>
         </section>
       </div>

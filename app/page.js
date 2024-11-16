@@ -22,8 +22,8 @@ export default function Home() {
                 Simplify Your Links, Amplify Your Reach
               </p>
               <p className="px-4 md:px-20 text-lg mt-4 text-gray-800">
-                Transform long, complex URLs into clean, memorable links. Whether you're
-                a business or an individual, we make sharing smarter and easier.
+                "Transform long, complex URLs into clean, memorable links. Whether you're
+                a business or an individual, we make sharing smarter and easier."
               </p>
               <p className="px-4 md:px-20 text-lg mt-2 text-gray-600">
                 Track performance, customize links, and unlock the power of data-driven decisions.

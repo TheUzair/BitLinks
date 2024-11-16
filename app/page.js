@@ -22,7 +22,7 @@ export default function Home() {
                 Simplify Your Links, Amplify Your Reach
               </p>
               <p className="px-4 md:px-20 text-lg mt-4 text-gray-800">
-                Transform long, complex URLs into clean, memorable links. Whether you’re
+                Transform long, complex URLs into clean, memorable links. Whether you're
                 a business or an individual, we make sharing smarter and easier.
               </p>
               <p className="px-4 md:px-20 text-lg mt-2 text-gray-600">
@@ -83,15 +83,15 @@ export default function Home() {
           </h2>
           <div className="flex flex-col md:flex-row justify-center gap-6">
             <div className="bg-purple-200 p-4 rounded-md shadow-md text-center">
-              <p className="italic">"This URL shortener has transformed the way I share links!"</p>
+              <p className="italic">This URL shortener has transformed the way I share links!</p>
               <p className="font-semibold mt-2">- Alex J.</p>
             </div>
             <div className="bg-purple-200 p-4 rounded-md shadow-md text-center">
-              <p className="italic">"The analytics feature is a game changer for my marketing efforts."</p>
+              <p className="italic">The analytics feature is a game changer for my marketing efforts.</p>
               <p className="font-semibold mt-2">- Jamie R.</p>
             </div>
             <div className="bg-purple-200 p-4 rounded-md shadow-md text-center">
-              <p className="italic">"I love how easy it is to create custom links!"</p>
+              <p className="italic">I love how easy it is to create custom links!</p>
               <p className="font-semibold mt-2">- Taylor M.</p>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import React from "react";
 import Image from "next/image"; 
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -25,7 +26,7 @@ const About = () => {
             <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
             <p className="text-lg leading-relaxed">
               At BitLinks, our mission is to make your digital journey seamless.
-              "Whether you're sharing content, managing campaigns, or tracking clicks,"
+              Whether you&apos;re sharing content, managing campaigns, or tracking clicks,
               we provide the tools to simplify and enhance your online presence.
             </p>
           </section>
